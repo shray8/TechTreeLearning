@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sympli1Fragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Ash_grey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+            <TextView
+                android:id="@+id/textConfirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Confirmation"
+                android:textColor="@color/Taupe"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:id="@+id/LL"
+            android:layout_height="3dp"
+            android:background="#d4d4d5"
+            android:orientation="horizontal"
+            android:layout_marginTop="4.5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textConfirmation">
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle"
+            android:layout_marginStart="140dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textConfirmation"/>
+
+
+
+
+
+        <ImageView
+            android:id="@+id/circle2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle"
+            app:layout_constraintStart_toEndOf="@+id/circle1"
+            app:layout_constraintEnd_toStartOf="@+id/circle3"
+            app:layout_constraintTop_toBottomOf="@+id/textConfirmation" />
+
+        <ImageView
+            android:id="@+id/circle3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle"
+            app:layout_constraintEnd_toStartOf="@+id/circle4"
+            app:layout_constraintStart_toEndOf="@+id/circle2"
+            app:layout_constraintTop_toBottomOf="@+id/textConfirmation"/>
+
+
+        <ImageView
+            android:id="@+id/circle4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/circle"
+            android:layout_marginEnd="140dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textConfirmation"/>
+
+
+        <ImageView
+                android:id="@+id/imageGarden"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/garden"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textConfirmation" />
+
+            <TextView
+                android:id="@+id/textTheMajlis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="8dp"
+                android:text="The Majlis"
+                android:textColor="@color/Taupe"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageGarden" />
+
+            <TextView
+                android:id="@+id/textEmirates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:text="Emirates Golf Club"
+                android:textSize="10sp"
+                android:textColor="@color/Taupe"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textTheMajlis" />
+
+            <TextView
+                android:id="@+id/text7June"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="19dp"
+                android:text="7 June 2019 13:37"
+                android:textColor="@color/Taupe"
+                android:textSize="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textEmirates" />
+
+            <TextView
+                android:id="@+id/text2Player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="19dp"
+                android:text="2 Player"
+                android:textColor="@color/Taupe"
+                android:textSize="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageGarden" />
+
+            <TextView
+                android:id="@+id/text9Holes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="19dp"
+                android:text="9 Holes"
+                android:textColor="@color/Taupe"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text2Player" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Player 1"
+        android:textColor="@color/Taupe"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint1" />
+
+
+    <TextView
+        android:id="@+id/textBreydon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:text="Breydon Smith"
+        android:textColor="@color/Taupe"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPlayer1" />
+
+    <TextView
+        android:id="@+id/textPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Player 2"
+        android:textColor="@color/Taupe"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBreydon" />
+
+    <TextView
+        android:id="@+id/textJohn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:text="John Smith"
+        android:textColor="@color/Taupe"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPlayer2" />
+
+    <TextView
+        android:id="@+id/textVisitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:text="Visitor"
+        android:textColor="@color/Taupe"
+        android:textSize="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textJohn" />
+
+    <TextView
+        android:id="@+id/textPlayer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="16dp"
+        android:text="Player 3"
+        android:textColor="@color/Taupe"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textVisitor" />
+
+    <TextView
+        android:id="@+id/textSteffan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:text="Steffan Devin"
+        android:textColor="@color/Taupe"
+        android:textSize="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPlayer3" />
+
+
+    <TextView
+        android:id="@+id/textEGC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:text="EGC"
+        android:textColor="@color/Taupe"
+        android:textSize="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSteffan" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="30dp"
+        android:text="Total"
+        android:textColor="@color/Taupe"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonViewTransaction"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textAED1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="19dp"
+        android:text="AED 1,860.00"
+        android:textColor="@color/Taupe"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint1" />
+
+    <TextView
+        android:id="@+id/textAED2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="19dp"
+        android:text="AED 1,860.00"
+        android:textColor="@color/Taupe"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAED1" />
+
+    <TextView
+        android:id="@+id/textAED3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="19dp"
+        android:text="AED 1,860.00"
+        android:textColor="@color/Taupe"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAED2" />
+
+    <TextView
+        android:id="@+id/textAEDtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="30dp"
+        android:text="AED 1,860.00"
+        android:textColor="@color/Taupe"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonViewTransaction" />
+
+    <Button
+        android:id="@+id/buttonViewTransaction"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_700"
+        android:text="View All Transaction"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_simply1">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

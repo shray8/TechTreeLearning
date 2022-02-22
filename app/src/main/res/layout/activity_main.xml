@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:id="@+id/vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/vehicle"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="72dp"
+            android:text="@string/abstracts"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="112dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textadd"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textstatic"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="21dp"
+            android:text="@string/add"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textadd"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:text=""
+            android:layout_marginTop="21dp"
+            android:textSize="25sp" />
+
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/linearProgressIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/circularProgressIndicator"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentStart="true"
+            app:indicatorColor="@color/teal_200"
+            app:trackColor="@color/purple_500"
+            android:indeterminate="true"
+            app:trackThickness="8dp" />
+
+        <FrameLayout
+            android:id="@+id/rv_Frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" />
+
+
+
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/circularProgressIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:layout_centerInParent="true"/>
+
+
+        <TextView
+            android:id="@+id/textAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonSnackbar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="226dp"
+            android:text="@string/arraylist"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="160dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/textLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="13dp"
+            android:text="@string/linkedlist"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textHS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/hashset"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textstatic"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="130dp"
+            android:layout_toStartOf="@+id/textAL"
+            android:text="@string/statics"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHS" />
+
+        <Button
+            android:id="@+id/buttColorChange"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginBottom="92dp"
+            android:text="@string/color_change"
+            />
+
+        <Button
+            android:id="@+id/buttBackdrop"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="161dp"
+            android:text="@string/backdrop"/>
+
+        <Button
+            android:id="@+id/butNewAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="27dp"
+            android:layout_toStartOf="@+id/buttDashboard"
+            android:text="@string/new_activity"/>
+
+        <Button
+            android:id="@+id/buttDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="27dp"
+            android:text="@string/dashboard" />
+
+        <Button
+            android:id="@+id/buttonSnackbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="230dp"
+            android:text="@string/snackbar" />
+
+<!--        <Button-->
+<!--            android:id="@+id/buttRV"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignBottom="@+id/buttonSnackbar"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginStart="232dp"-->
+<!--            android:layout_marginEnd="26dp"-->
+<!--            android:layout_marginBottom="60dp"-->
+<!--            android:text="@string/recycler_view" />-->
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="280dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="60dp"
+            android:background="@color/black"
+            />
+
+        <Button
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="230dp"
+            android:layout_toStartOf="@+id/buttonSnackbar"
+            android:text="@string/card_view" />
+
+        <Button
+            android:id="@+id/Dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="161dp"
+            android:layout_toStartOf="@+id/buttBackdrop"
+            android:text="@string/dialog" />
+
+        <Button
+            android:id="@+id/bottomSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="92dp"
+            android:layout_toEndOf="@+id/buttColorChange"
+            android:text="@string/bottom_sheet" />
+
+
+
+
+</RelativeLayout>
+

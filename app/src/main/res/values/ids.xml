@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="frameLayout" type="id" />
+    <item name="textView" type="id" />
+    <item name="Home" type="id" />
+    <item name="vehicle" type="id" />
+    <item name="sound" type="id" />
+    <item name="textadd" type="id" />
+    <item name="linearProgressIndicator" type="id" />
+    <item name="circularProgressIndicator" type="id" />
+    <item name="textAL" type="id" />
+    <item name="textLL" type="id" />
+    <item name="textHS" type="id" />
+    <item name="textstatic" type="id" />
+    <item name="button" type="id" />
+    <item name="buttBackdrop" type="id" />
+    <item name="butNewAct" type="id" />
+    <item name="buttDashboard" type="id" />
+    <item name="cardView" type="id" />
+    <item name="Dialog" type="id" />
+    <item name="bottomSheet" type="id" />
+</resources>

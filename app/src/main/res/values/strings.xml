@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TechTree Learning</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_2">Activity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_card">CardActivity</string>
+    <string name="vehicle">vehicle</string>
+    <string name="card_view">Card View</string>
+    <string name="backdrop">Backdrop</string>
+    <string name="add">Add</string>
+    <string name="arraylist">ArrayList</string>
+    <string name="linkedlist">LinkedList</string>
+    <string name="new_activity">New Activity</string>
+    <string name="hashset">HashSet</string>
+    <string name="color_change">Color Change</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="bottom_sheet">Bottom Sheet</string>
+    <string name="dialog">Dialog</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="statics">statics</string>
+    <string name="abstracts">abstracts</string>
+</resources>

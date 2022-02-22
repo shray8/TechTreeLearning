@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Card"
+        android:icon="@drawable/card_image"
+        android:title="Card"
+        />
+
+    <item
+        android:id="@+id/Rewards"
+        android:icon="@drawable/reward_image"
+        android:title="Rewards"
+        />
+
+    <item
+        android:id="@id/Home"
+        android:icon="@drawable/home_image"
+        android:title="Home"
+        />
+
+    <item
+        android:id="@+id/Explore"
+        android:icon="@drawable/explore_image"
+        android:title="Explore"
+        />
+
+    <item
+        android:id="@+id/More"
+        android:icon="@drawable/more_image"
+        android:title="More"
+        />
+
+</menu>
